@@ -26,7 +26,7 @@ library:
   source-dirs: src
 
 executables:
-  words-executable:
+  words-exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -34,6 +34,7 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     - -dynamic
+
     dependencies:
     - words
 
